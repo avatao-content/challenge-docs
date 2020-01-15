@@ -1,14 +1,14 @@
 ---
 description: >-
-  Good technical demos require a reasonable effort and time. Avatao tutorials
+  Good technical demos require reasonable effort and time. Avatao tutorials
   allows you to showcase your demo in an easy and flawless way 24/7.
 ---
 
 # Why Avatao Tutorials?
 
-## Why to use Avatao tutorials instead of homemade demos and videos?
+## Why use Avatao tutorials instead of homemade demos and videos?
 
-Technical demos are a huge pain to be created, maintained and published. Avatao tutorials gives you various advantages over homemade solutions. 
+Technical demos are a huge pain to creat, maintain and publish. Avatao tutorials give you various advantages over homemade solutions.
 
 ### Why?
 
