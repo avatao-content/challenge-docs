@@ -15,7 +15,7 @@ With this, you can generate an exercise on Avatao with a GitHub repository. Clon
 
 To test your unpublished changes, just visit your exercise on the Avatao platform and before starting it, select the `staging` branch.
 
-We suggest to use one of the prepared starting projects instead of developing your own vulnerable application. These starting projects contains a working exercise using the Tutorial Framework, you just have to modify them to contain the intended vulnerability. More at the [`Generate a starter`](Generate a starter) section.
+We suggest to use one of the prepared starting projects instead of developing your own vulnerable application. These starting projects contains a working exercise using the Tutorial Framework, you just have to modify them to contain the intended vulnerability. More at the [Generate a starter](https://github.com/avatao-content/docs/blob/update/publish-exercise.md#generate-a-starter) section.
 
 ### Publish an exercise
 Create a pull request to merge your changes into the `master` branch. After passing the manual review, your exercise will be published.
@@ -24,6 +24,6 @@ Create a pull request to merge your changes into the `master` branch. After pass
 Install the `EZAPI` extension and access it
 
 ## Generate a starter
-We've prepared starter projects that you can use to speed up the development. You can find the list of available languages and frameworks [here](TODO).
+We've prepared starter projects that you can use to speed up the development. You can find the list of available languages and frameworks [here](https://github.com/avatao-content/test-tfw-startr).
 
-You can use the [StartR tool](TODO) to generate these. It'll create a ZIP file, just extract it and copy the files into the cloned repository.
+You can use the [StartR tool](https://github.com/avatao-content/test-tfw-startr) to generate these. It'll create a ZIP file, just extract it and copy the files into the cloned repository.
