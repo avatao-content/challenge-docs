@@ -1,7 +1,7 @@
 ---
 description: >-
-  This guide helps you to discover the Avatao challenge landscape. Also, if you
-  are interested in creating new challenges, you'll find here all the required
+  This guide helps you to discover the Avatao exercise landscape. Also, if you
+  are interested in creating new exercises, you'll find here all the required
   information.
 ---
 
@@ -9,21 +9,19 @@ description: >-
 
 {% page-ref page="use-cases.md" %}
 
-{% page-ref page="publish-challenge.md" %}
+{% page-ref page="publish-exercise.md" %}
 
-## Challenge creators's kickstarter
+## Exercise creators's kickstarter
 
-{% page-ref page="content-developers-kickstarter/content-developers-kickstarter.md" %}
+{% page-ref page="content-creators-kickstarter/exercise-types.md" %}
 
-{% page-ref page="content-developers-kickstarter/challenge-types.md" %}
+{% page-ref page="content-creators-kickstarter/environment.md" %}
 
-{% page-ref page="content-developers-kickstarter/environment.md" %}
+{% page-ref page="content-creators-kickstarter/exercise-creation-process.md" %}
 
-{% page-ref page="content-developers-kickstarter/process-of-creating-own-challenges.md" %}
+{% page-ref page="content-creators-kickstarter/exercise-structure.md" %}
 
-{% page-ref page="content-developers-kickstarter/untitled.md" %}
+{% page-ref page="content-creators-kickstarter/communication-with-tfw.md" %}
 
-{% page-ref page="content-developers-kickstarter/communication-with-tfw.md" %}
-
-{% page-ref page="content-developers-kickstarter/building-and-running.md" %}
+{% page-ref page="content-creators-kickstarter/building-and-running.md" %}
 

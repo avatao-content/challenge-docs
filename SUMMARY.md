@@ -2,15 +2,13 @@
 
 * [Getting started](README.md)
 * [Why Avatao Tutorials?](use-cases.md)
-* [Publish your challenge on Avatao](publish-challenge.md)
+* [Publish your exercise on Avatao](publish-exercise.md)
 
-## Challenge creators's kickstarter <a id="content-developers-kickstarter"></a>
+## Content creators's kickstarter <a id="content-creators-kickstarter"></a>
 
-* [Introduction](content-developers-kickstarter/content-developers-kickstarter.md)
-* [Challenge types](content-developers-kickstarter/challenge-types.md)
-* [Environment](content-developers-kickstarter/environment.md)
-* [Process of creating own challenges](content-developers-kickstarter/process-of-creating-own-challenges.md)
-* [Content of the challenge repository](content-developers-kickstarter/untitled.md)
-* [Communication with TFW](content-developers-kickstarter/communication-with-tfw.md)
-* [Building and running](content-developers-kickstarter/building-and-running.md)
-
+* [Exercise types](content-creators-kickstarter/exercise-types.md)
+* [Environment](content-creators-kickstarter/environment.md)
+* [Exercise creation process](content-creators-kickstarter/exercise-creation-process.md)
+* [Exercise structure](content-creators-kickstarter/exercise-structure.md)
+* [Communication with the TFW](content-creators-kickstarter/communication-with-tfw.md)
+* [Building and running](content-creators-kickstarter/building-and-running.md)
