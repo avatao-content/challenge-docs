@@ -9,9 +9,15 @@ After installing it, you can access the creator form [here](https://next.avatao.
 Please make sure to fill the form with valid information, otherwise you will not get access to the created repository.
 
 {% hint style="info" %}
-Please choose a _challenge name_ that describes what the problem is in the exercise, because this name cannot be changed later on. For example, **don’t call** your repository “SQL injection” because there can be a lot of such exercises.
+How to pick a good exercise name? Make sure it's unique, related to the exercise, but it's not too general (to avoid name collision and to keep the platform fun).
 
-Try to be more specific such as "_SQL injection in Java via Hibernate_". Later, you’ll see that the name of the repository can be different from the name of the exercise, but we **strongly** **suggest** to have the same to be able to find it easier on GitHub.
+Good:
+ * Externalized secrets *(it's an XXE exercise)*
+ * Hello Stored XSS *(it's about the basics of stored XSS)*
+ 
+Bad *(these are basically skill tags)*:
+ * Direct object reference Java tutorial
+ * Command injection tutorial in ASP.NET
 {% endhint %}
 
 ## Preparing a local version
@@ -28,9 +34,9 @@ git push -u origin staging
 
 The development process is fairly straightforward, create an exercise on the platform, develop it on the `staging` branch and then submit a pull-request to the `master` branch. We'll review your exercise and provide feedback if needed. When an exercise meets every requirement, we'll accept the pull-request and it'll be available on the Avatao platform. You can always submit new pull-request if you want to change your exercise.
 
-### Tutorial and Fix
+### Tutorial
 
-For tutorial or fix exercises, please use the [Avatao StartR](https://github.com/avatao-content/test-tfw-startr) application to generate a starting project for yourself. You can choose from multiple languages and frameworks. In case your desired language or framework is not available, just download one of the `Hello-world` applications and modify it.
+For tutorial exercises, please use the [Avatao StartR](https://github.com/avatao-content/test-tfw-startr) application to generate a starting project for yourself. You can choose from multiple languages and frameworks. In case your desired language or framework is not available, just download one of the `Hello-world` applications and modify it.
 
 These exercises use the Tutorial Framework, please see the [Wiki](https://github.com/avatao-content/baseimage-tutorial-framework/wiki) for more information.
 

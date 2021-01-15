@@ -2,7 +2,7 @@
 
 ## General structure
 
-### Tutorial and Fix
+### Tutorial
 The solution checking is integrated into the TFW, since all we have to do is check if the state machine is in the last state, so there is no separate `controller` folder. However, stepping the state machine based on user actions is the your task.
 
 The general file structure looks like this:
@@ -16,8 +16,8 @@ The general file structure looks like this:
 │   ├── 5. supervisor
 │   │   └── [Supervisor config files]
 │   ├── 6. tutorial  
-│   │   ├── 7. app.yml: The YAML file that describes the whole exercise, including steps, views and chatbot messages   
-│   │   └── 8. A file that implements your event handlers using your SDK of choice (e.g. `app.py` in the Python tutorials)     
+│   │   ├── 7. tfw.yml: The YAML file that describes the whole exercise, including steps, views and chatbot messages   
+│   │   └── 8. A file that implements your event handlers using your SDK of choice (e.g. `eventhandler.py` in the Python tutorials)     
 │   └── 9. webservicve
 │       └── [The vulnerable application or files that you want to run/showcase using the TFW]    
 ├── 10. config.yml exercise configuration file  
@@ -57,21 +57,21 @@ The implemented application: the custom final state machine and event handler sh
 
 Contains the commands to build up the solvable exercise's image. Please check the Dockerfile reference [here](https://docs.docker.com/engine/reference/builder/).
 
-Quick note: in the `VOLUME` array you can define the routes that’ll be excluded from the read-only file system. The basic commands of this file should be understood.
+Quick note: in the `VOLUME` array you can define the routes that’ll be excluded from the read-only file system and will be shared with other containers. The basic commands of this file should be understood.
 
 #### Solvable/webservice
 
 The source files you want to be seen by the user in the TFW IDE should be put here.
 
-#### Solvable/tutorial/<event handling implementation> (Only for Tutorial/Fix)
+#### Solvable/tutorial/<event handling implementation> (Only for Tutorial)
 
 For further details, please click [here](https://github.com/avatao-content/tutorial#event-handling).
 
-### Solvable/tutorial/fsm.yaml (Only for Tutorial/Fix)
+### Solvable/tutorial/fsm.yaml (Only for Tutorial)
 
 A good state machine is the backbone of a good TFW exercise. For further details please click [here](https://github.com/avatao-content/tutorial#frontend-config-and-app-fsm).
 
-### Solvable/nginx (Only for Tutorial/Fix)
+### Solvable/nginx (Only for Tutorial)
 
 In most cases you don’t have to deal with it.
 
@@ -87,7 +87,7 @@ After this, you can access the service running on port `3333` at `http://localho
 
 It’s very important to understand that from now on your application must behave well behind a reverse proxy. What this means is all hrefs must point the proxied paths \(e.g. links should refer to `/yoururl/register` instead of `/register`\) on your HTML pages. You can learn about configuring nginx in [this](https://www.digitalocean.com/community/tutorials/understanding-the-nginx-configuration-file-structure-and-configuration-contexts) handy little tutorial.
 
-### Solvable/supervisor (Only for Tutorial/Fix)
+### Solvable/supervisor (Only for Tutorial)
 
 In most Docker containers there’s a single process running \(it gets `PID 1`\). When working with TFW you can run as many processes as you want to, by using supervisord. 
 
