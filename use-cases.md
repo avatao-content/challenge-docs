@@ -20,5 +20,5 @@ Technical demos are a huge pain to be created, maintained and published. Avatao 
 
 ### How to be involved?
 
-See the details [here](publish-challenge.md). 
+See the details [here](publish-exercise.md). 
 
