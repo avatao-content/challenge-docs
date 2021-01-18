@@ -11,11 +11,11 @@ The general file structure looks like this:
 │   └── [the TFW itself, please don't modify it]  
 ├── 2. solvable  
 │   ├── 3. Dockerfile   
-│   ├── 4. nginx    
-│   │   └── [Nginx config files]
-│   ├── 5. supervisor
+│   ├── 4. supervisor
 │   │   └── [Supervisor config files]
-│   ├── 6. tutorial  
+│   ├── 5. tutorial  
+│   │   ├── 6. nginx
+|   |   |   └── [Nginx config files] 
 │   │   ├── 7. tfw.yml: The YAML file that describes the whole exercise, including steps, views and chatbot messages   
 │   │   └── 8. A file that implements your event handlers using your SDK of choice (e.g. `eventhandler.py` in the Python tutorials)     
 │   └── 9. webservicve
@@ -71,11 +71,11 @@ For further details, please click [here](https://github.com/avatao-content/tutor
 
 A good state machine is the backbone of a good TFW exercise. For further details please click [here](https://github.com/avatao-content/tutorial#frontend-config-and-app-fsm).
 
-### Solvable/nginx (Only for Tutorial)
+### Solvable/tutorial/nginx (Only for Tutorial)
 
 In most cases you don’t have to deal with it.
 
-All TFW based exercises expose a single port defined in the `TFW_PUBLIC_PORT` envvar which is set to `8888` by default. This means that in order to listen on more than a single port we must use a reverse proxy. Any `.conf` files in solvable/nginx/ will automatically be included in the nginx configuration. In case you want to serve a website or service, you must proxy it through `TFW_PUBLIC_PORT`. This is really easy: just create a config file in `solvable/nginx/` similar to this one:
+All TFW based exercises expose a single port defined in the `TFW_PUBLIC_PORT` envvar which is set to `8888` by default. This means that in order to listen on more than a single port we must use a reverse proxy. Any `.conf` files in solvable/tutorial/nginx/ will automatically be included in the nginx configuration. In case you want to serve a website or service, you must proxy it through `TFW_PUBLIC_PORT`. This is really easy: just create a config file in `solvable/tutorial/nginx/` similar to this one:
 
 ```
 location /yoururl {   
